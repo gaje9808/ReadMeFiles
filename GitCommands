@@ -1,0 +1,2 @@
+If a file is pushed to git then even adding it to .gitignore won't help in removing it from your remote git. So we have to remove that file/directory from files trached by git
+--- git rm -r --cache .idea/
